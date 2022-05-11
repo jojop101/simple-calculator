@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './styles.css'
 import { useReducer } from "react"
@@ -140,7 +139,8 @@ function App() {
   
 
   return (
-    <div className="calculator-grid">
+    <div className="calculator-grid"> 
+      {/* <div className="title">Calculator</div> */}
       <div className="output">
         <div className="previous-operand">{formatOperand(previousOperand)} {operation}</div>
         <div className="current-operand">{formatOperand(currentOperand)}</div>
